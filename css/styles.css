@@ -369,6 +369,11 @@ nav h1 a {
     width: 100vw;
   }
 
+  .inside header nav h1 a,
+  #restaurant-name {
+    font-size: 14pt;
+  }
+
 }
 
 @media (min-width: 480px) and (max-width: 1280px) {
@@ -403,6 +408,11 @@ nav h1 a {
   width: 100vw;
 }
 
+.inside header nav h1 a,
+#restaurant-name {
+  font-size: 14pt;
+}
+
 @media(min-width: 1280px) {
 
   body,
@@ -424,6 +434,11 @@ nav h1 a {
     width: 100%;
     max-width: 1280px;
     z-index: 1000;
+  }
+
+  .inside header nav h1 a,
+  #restaurant-name {
+    font-size: 20pt;
   }
 
   .inside #map-container {
